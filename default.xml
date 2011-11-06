@@ -73,6 +73,7 @@
   <project path="device/motorola/droid2" name="CyanogenMod/android_device_motorola_droid2" />
   <project path="device/motorola/droid2we" name="CyanogenMod/android_device_motorola_droid2we" />
   <project path="device/motorola/jordan" name="CyanogenMod/android_device_motorola_jordan" />
+  <project path="device/motorola/milestone2" name="tezet/android_device_motorola_milestone2" />
   <project path="device/motorola/morrison" name="CyanogenMod/android_device_motorola_morrison" />
   <project path="device/motorola/motus" name="CyanogenMod/android_device_motorola_motus" />
   <project path="device/motorola/olympus" name="CyanogenMod/android_device_motorola_olympus" />
@@ -224,7 +225,7 @@
   <project path="external/xmlwriter" name="CyanogenMod/android_external_xmlwriter" />
   <project path="external/yaffs2" name="CyanogenMod/android_external_yaffs2" />
   <project path="external/zlib" name="CyanogenMod/android_external_zlib" />
-  <project path="frameworks/base" name="CyanogenMod/android_frameworks_base" />
+  <project path="frameworks/base" name="tezet/android_frameworks_base" />
   <project path="frameworks/ex" name="CyanogenMod/android_frameworks_ex" />
   <project path="frameworks/opt/emoji" name="CyanogenMod/android_frameworks_opt_emoji" />
   <project path="hardware/broadcom/wlan" name="CyanogenMod/android_hardware_broadcom_wlan" />
@@ -237,7 +238,7 @@
   <project path="hardware/ril" name="CyanogenMod/android_hardware_ril" />
   <project path="hardware/alsa_sound" name="CyanogenMod/android_hardware_alsa_sound" />
   <project path="hardware/ti/omap3" name="CyanogenMod/android_hardware_ti_omap3" />
-  <project path="hardware/ti/omap3-compat" name="CyanogenMod/android_hardware_ti_omap3-compat" />
+  <project path="hardware/ti/omap3-compat" name="tezet/android_hardware_ti_omap3-compat" />
   <project path="hardware/ti/omx" name="CyanogenMod/android_hardware_ti_omx" />
   <project path="hardware/ti/syslink" name="CyanogenMod/android_hardware_ti_syslink" />
   <project path="hardware/ti/tiler" name="CyanogenMod/android_hardware_ti_tiler" />
@@ -316,7 +317,8 @@
   <project path="system/vold" name="CyanogenMod/android_system_vold" />
   <project path="system/wlan/ti" name="CyanogenMod/android_system_wlan_ti" />
 
-  <project path="vendor/cyanogen" name="CyanogenMod/android_vendor_cyanogen" />
+  <project path="vendor/cyanogen" name="tezet/android_vendor_cyanogen" />
+  <project path="vendor/motorola" name="tezet/proprietary_vendor_motorola" />
   <project path="vendor/qcom/opensource/webkit" name="CyanogenMod/android_vendor_qcom_opensource_webkit" />
   <project path="vendor/tmobile/apps/ThemeChooser" name="CyanogenMod/themes-platform-vendor-tmobile-apps-ThemeChooser" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="CyanogenMod/android_vendor_tmobile_libs_com.tmobile.themes" />
