@@ -265,6 +265,5 @@
   <project path="device/motorola/common" name= "MotoMagic/android_device_motorola_common" />
   <project path="vendor/motorola" name="tezet/proprietary_vendor_motorola" revision="ics" />
   <project path="external/DroidSSHd" name="tpruvot/android_external_droidsshd" />
-
   <project path="android" name="CyanogenMod/android" />
 </manifest>
