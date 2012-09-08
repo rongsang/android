@@ -1,23 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote  name="korg"
-           fetch="git://android.git.kernel.org/"
+           fetch="http://android.git.kernel.org/"
            review="review.source.android.com" />
 
   <remote  name="github"
-           fetch="https://github.com/"
+           fetch="https://github.com"
            review="review.cyanogenmod.com" />
 
   <default revision="gingerbread"
            remote="github" />
 
+  <remote  name="github-https"
+           fetch="https://github.com/"
+           review="review.cyanogenmod.com" />
+
   <project path="build" name="CyanogenMod/android_build">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="bionic" name="CyanogenMod/android_bionic" />
+  <project path="bionic" name="Quarx2k/android_bionic" />
   <project path="bootable/bootloader/legacy" name="CyanogenMod/android_bootable_bootloader_legacy" />
   <project path="bootable/diskinstaller" name="CyanogenMod/android_bootable_diskinstaller" />
-  <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" />
+  <project path="bootable/recovery" name="tpruvot/android_bootable_recovery" />
   <project path="dalvik" name="CyanogenMod/android_dalvik" />
   <project path="development" name="CyanogenMod/android_development" />
   <project path="device/advent/vega" name="CyanogenMod/android_device_advent_vega" />
@@ -62,6 +66,7 @@
   <project path="device/lge/p990" name="CyanogenMod/android_device_lge_p990" />
   <project path="device/lge/p999" name="CyanogenMod/android_device_lge_p999" />
   <project path="device/lge/star-common" name="CyanogenMod/android_device_lge_star-common" />
+  <project path="device/lge/victor-common" name="CyanogenMod/android_device_lge_victor-common" />
   <project path="device/malata/smb-common" name="CyanogenMod/android_device_malata_smb-common" />
   <project path="device/malata/smb_a1002" name="CyanogenMod/android_device_malata_smb_a1002" />
   <project path="device/malata/smb_a1004" name="CyanogenMod/android_device_malata_smb_a1004" />
@@ -70,7 +75,6 @@
   <project path="device/motorola/common" name="CyanogenMod/android_device_motorola_common" />
   <project path="device/motorola/droid2" name="CyanogenMod/android_device_motorola_droid2" />
   <project path="device/motorola/droid2we" name="CyanogenMod/android_device_motorola_droid2we" />
-  <project path="device/motorola/jordan" name="CyanogenMod/android_device_motorola_jordan" />
   <project path="device/motorola/milestone2" name="tezet/android_device_motorola_milestone2" />
   <project path="device/motorola/morrison" name="CyanogenMod/android_device_motorola_morrison" />
   <project path="device/motorola/motus" name="CyanogenMod/android_device_motorola_motus" />
@@ -124,6 +128,7 @@
   <project path="device/semc/zeus-common" name="CyanogenMod/android_device_semc_zeus-common" />
   <project path="device/zte/blade" name="CyanogenMod/android_device_zte_blade" />
   <project path="device/zte/v9" name="CyanogenMod/android_device_zte_v9" />
+
   <project path="external/alsa-lib" name="CyanogenMod/android_external_alsa-lib" />
   <project path="external/alsa-utils" name="CyanogenMod/android_external_alsa-utils" />
   <project path="external/apache-http" name="CyanogenMod/android_external_apache-http" />
@@ -228,6 +233,7 @@
   <project path="frameworks/base" name="tezet/android_frameworks_base" />
   <project path="frameworks/ex" name="CyanogenMod/android_frameworks_ex" />
   <project path="frameworks/opt/emoji" name="CyanogenMod/android_frameworks_opt_emoji" />
+
   <project path="hardware/broadcom/wlan" name="CyanogenMod/android_hardware_broadcom_wlan" />
   <project path="hardware/gpsshim" name="CyanogenMod/android_hardware_gpsshim" />
   <project path="hardware/libhardware" name="CyanogenMod/android_hardware_libhardware" />
@@ -237,15 +243,20 @@
   <project path="hardware/qcom/media" name="CyanogenMod/android_hardware_qcom_media" />
   <project path="hardware/ril" name="CyanogenMod/android_hardware_ril" />
   <project path="hardware/alsa_sound" name="CyanogenMod/android_hardware_alsa_sound" />
+
   <project path="hardware/ti/omap3" name="CyanogenMod/android_hardware_ti_omap3" />
   <project path="hardware/ti/omap3-compat" name="tezet/android_hardware_ti_omap3-compat" />
+
   <project path="hardware/ti/omx" name="CyanogenMod/android_hardware_ti_omx" />
   <project path="hardware/ti/syslink" name="CyanogenMod/android_hardware_ti_syslink" />
   <project path="hardware/ti/tiler" name="CyanogenMod/android_hardware_ti_tiler" />
+
   <project path="hardware/ti/wlan" name="CyanogenDefy/android_hardware_ti_wlan" />
   <project path="hardware/ti/wpan" name="CyanogenMod/android_hardware_ti_wpan" />
+
   <project path="libcore" name="CyanogenMod/android_libcore" />
   <project path="ndk" name="CyanogenMod/android_ndk" />
+
   <project path="packages/apps/AccountsAndSyncSettings" name="CyanogenMod/android_packages_apps_AccountsAndSyncSettings" />
   <project path="packages/apps/AicBootFix" name="CyanogenMod/android_packages_apps_AicBootFix" revision="master"/>
   <project path="packages/apps/ADWLauncher" name="CyanogenMod/android_packages_apps_ADWLauncher" />
@@ -254,7 +265,7 @@
   <project path="packages/apps/Browser" name="CyanogenMod/android_packages_apps_Browser" />
   <project path="packages/apps/Calculator" name="CyanogenMod/android_packages_apps_Calculator" />
   <project path="packages/apps/Calendar" name="CyanogenMod/android_packages_apps_Calendar" />
-  <project path="packages/apps/Camera" name="CyanogenMod/android_packages_apps_Camera" />
+  <project path="packages/apps/Camera" name="CyanogenDefy/android_packages_apps_Camera" />
   <project path="packages/apps/CertInstaller" name="CyanogenMod/android_packages_apps_CertInstaller" />
   <project path="packages/apps/CMParts" name="tezet/android_packages_apps_CMParts" />
   <project path="packages/apps/CMScreenshot" name="CyanogenMod/android_packages_apps_CMScreenshot" />
@@ -279,7 +290,7 @@
   <project path="packages/apps/Nfc" name="CyanogenMod/android_packages_apps_Nfc" />
   <project path="packages/apps/PackageInstaller" name="CyanogenMod/android_packages_apps_PackageInstaller" />
   <project path="packages/apps/Pacman" name="CyanogenMod/android_packages_apps_Pacman" />
-  <project path="packages/apps/Phone" name="CyanogenMod/android_packages_apps_Phone" />
+  <project path="packages/apps/Phone" name="Quarx2k/android_packages_apps_Phone" />
   <project path="packages/apps/Protips" name="CyanogenMod/android_packages_apps_Protips" />
   <project path="packages/apps/Provision" name="CyanogenMod/android_packages_apps_Provision" />
   <project path="packages/apps/QuickSearchBox" name="CyanogenMod/android_packages_apps_QuickSearchBox" />
@@ -307,8 +318,10 @@
   <project path="packages/wallpapers/LivePicker" name="CyanogenMod/android_packages_wallpapers_LivePicker" />
   <project path="packages/wallpapers/MagicSmoke" name="CyanogenMod/android_packages_wallpapers_MagicSmoke" />
   <project path="packages/wallpapers/MusicVisualization" name="CyanogenMod/android_packages_wallpapers_MusicVisualization" />
+
   <project path="prebuilt" name="CyanogenMod/android_prebuilt" />
   <project path="sdk" name="CyanogenMod/android_sdk" revision="tools_r7" />
+
   <project path="system/bluetooth" name="CyanogenMod/android_system_bluetooth" />
   <project path="system/core" name="CyanogenMod/android_system_core" />
   <project path="system/extras" name="CyanogenMod/android_system_extras" />
