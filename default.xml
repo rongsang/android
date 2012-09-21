@@ -188,7 +188,7 @@
   <project path="external/yaffs2" name="tpruvot/android_external_yaffs2" />
   <project path="external/zlib" name="CyanogenMod/android_external_zlib" />
   <project path="external/zxing" name="CyanogenMod/android_external_zxing" />
-  <project path="frameworks/av" name="Quarx2k/android_frameworks_av"/>
+  <project path="frameworks/av" name="tezet/android_frameworks_av"/>
   <project path="frameworks/base" name="tezet/android_frameworks_base" remote="github" />
   <project path="frameworks/compile/libbcc" name="CyanogenMod/android_frameworks_compile_libbcc" />
   <project path="frameworks/compile/linkloader" name="CyanogenMod/android_frameworks_compile_linkloader" />
@@ -217,7 +217,7 @@
   <project path="hardware/qcom/display" name="CyanogenMod/android_hardware_qcom_display" />
   <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" />
   <project path="hardware/qcom/media" name="CyanogenMod/android_hardware_qcom_media" />
-  <project path="hardware/ril" name="Quarx2k/android_hardware_ril" />
+  <project path="hardware/ril" name="tezet/android_hardware_ril" />
   <project path="hardware/ti/omap3" name="CyanogenDefy/android_hardware_ti_omap3-compat" />
   <project path="hardware/ti/omap4xxx" name="CyanogenMod/android_hardware_ti_omap4xxx" />
   <project path="hardware/ti/wlan" name="tezet/android_hardware_ti_wlan" />
@@ -251,11 +251,11 @@
   <project path="packages/apps/MusicFX" name="CyanogenMod/android_packages_apps_MusicFX" />
   <project path="packages/apps/Nfc" name="CyanogenMod/android_packages_apps_Nfc" />
   <project path="packages/apps/PackageInstaller" name="CyanogenMod/android_packages_apps_PackageInstaller" />
-  <project path="packages/apps/Phone" name="Quarx2k/android_packages_apps_Phone" revision="jellybean" />
+  <project path="packages/apps/Phone" name="tezet/android_packages_apps_Phone" revision="jellybean" />
   <project path="packages/apps/Protips" name="CyanogenMod/android_packages_apps_Protips" />
   <project path="packages/apps/Provision" name="CyanogenMod/android_packages_apps_Provision" />
   <project path="packages/apps/QuickSearchBox" name="CyanogenMod/android_packages_apps_QuickSearchBox" />
-  <project path="packages/apps/Settings" name="Quarx2k/android_packages_apps_Settings" />
+  <project path="packages/apps/Settings" name="tezet/android_packages_apps_Settings" />
   <project path="packages/apps/SoundRecorder" name="CyanogenMod/android_packages_apps_SoundRecorder" />
   <project path="packages/apps/SpareParts" name="CyanogenMod/android_packages_apps_SpareParts" />
   <project path="packages/apps/SpeechRecorder" name="CyanogenMod/android_packages_apps_SpeechRecorder" />
@@ -309,14 +309,14 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" remote="aosp" revision="jb-dev" />
   <project path="prebuilts/tools" name="CyanogenMod/android_prebuilts_tools" />
   <project path="system/bluetooth" name="CyanogenMod/android_system_bluetooth" />
-  <project path="system/core" name="Quarx2k/android_system_core" />
+  <project path="system/core" name="tezet/android_system_core" />
   <project path="system/extras" name="CyanogenMod/android_system_extras" />
   <project path="system/media" name="CyanogenMod/android_system_media" />
   <project path="system/netd" name="tezet/android_system_netd" />
   <project path="system/security" name="CyanogenMod/android_system_security" />
   <project path="system/su" name="CyanogenMod/android_system_su" />
   <project path="system/vold" name="CyanogenMod/android_system_vold" />
-  <project path="vendor/cm" name="Quarx2k/android_vendor_cm" />
+  <project path="vendor/cm" name="CyanogenMod/android_vendor_cm" />
   <project path="system/wlan/ti" name="tpruvot/android_system_wlan_ti" revision="gingerbread" />
 
   <project path="vendor/tmobile/apps/ThemeChooser" name="CyanogenMod/themes-platform-vendor-tmobile-apps-ThemeChooser" />
@@ -328,10 +328,6 @@
   <project path="packages/apps/Usb" name="CyanogenDefy/android_packages_apps_Usb" remote="github" revision="ics" />
   <project path="device/moto/jordan-common" name="Quarx2k/android_device_moto_jordan-common"/>
   <project path="device/moto/mb525" name="Quarx2k/android_device_motorola_jordan" />
-  <project path="device/moto/mb526" name="Quarx2k/android_device_moto_mb526"  />
-  <project path="device/moto/mb520" name="CyanogenKobe/android_device_moto_mb520"/>
-  <project path="device/fly/iq285" name="Quarx2k/android_device_fly_iq285"/>
-  <project path="packages/apps/DroidSSHd" name="tpruvot/android_external_droidsshd" />
   <project path="external/bootmenu" name="tpruvot/android_external_bootmenu" />
   <project path="external/hostapd" name="tpruvot/android_external_hostapd" remote="github" revision="ics" />
   <project path="packages/apps/HwaSettings" name="royale1223/HwaSettings" revision="master" />
