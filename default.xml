@@ -314,7 +314,6 @@
   <project path="prebuilts/qemu-kernel" name="platform/prebuilts/qemu-kernel" remote="aosp" revision="jb-dev" />
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" remote="aosp" revision="jb-dev" />
   <project path="prebuilts/tools" name="CyanogenMod/android_prebuilts_tools" />
-  <project path="sdk" name="CyanogenMod/android_sdk" />
   <project path="system/bluetooth" name="CyanogenMod/android_system_bluetooth" />
   <project path="system/core" name="tezet/android_system_core" />
   <project path="system/extras" name="CyanogenMod/android_system_extras" />
