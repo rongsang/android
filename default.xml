@@ -30,11 +30,6 @@
   <project path="device/moto/stingray" name="CyanogenMod/android_device_moto_stingray" />
   <project path="device/moto/wingray" name="CyanogenMod/android_device_moto_wingray" />
   <project path="device/sample" name="device/sample" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
-  <project path="device/samsung/maguro" name="CyanogenMod/android_device_samsung_maguro" />
-  <project path="device/samsung/p4-common" name="CyanogenMod/android_device_samsung_p4-common" />
-  <project path="device/samsung/p5-common" name="CyanogenMod/android_device_samsung_p5-common" />
-  <project path="device/samsung/toro" name="CyanogenMod/android_device_samsung_toro" />
-  <project path="device/samsung/tuna" name="CyanogenMod/android_device_samsung_tuna" />
   <project path="device/ti/panda" name="device/ti/panda" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
   <project path="external/android-mock" name="platform/external/android-mock" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
   <project path="external/antlr" name="platform/external/antlr" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
@@ -268,5 +263,5 @@
   <project path="device/motorola/common" name= "MotoMagic/android_device_moto_hijack" />
   <project path="vendor/motorola" name="tezet/proprietary_vendor_motorola" revision="ics" />
   <project path="external/DroidSSHd" name="tpruvot/android_external_droidsshd" />
-  <project path="android" name="tezet/android" />
+  <project path="android" name="rongsang/android" />
 </manifest>
