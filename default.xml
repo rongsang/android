@@ -258,7 +258,6 @@
   <project path="system/netd" name="CyanogenMod/android_system_netd" />
   <project path="system/su" name="CyanogenMod/android_system_su" />
   <project path="system/vold" name="CyanogenMod/android_system_vold" />
-  <project path="device/motorola/jordan" name="tpruvot/android_device_motorola_jordan" />
   <project path="device/motorola/milestone2" name="tezet/android_device_motorola_milestone2" />
   <project path="device/motorola/common" name= "MotoMagic/android_device_moto_hijack" />
   <project path="vendor/motorola" name="tezet/proprietary_vendor_motorola" revision="ics" />
